@@ -1,0 +1,73 @@
+/* Cool Blue Portfolio Theme */
+
+:root {
+  --primary-color: #2a68c4;        /* Deep Blue */
+  --background-color: #f0f4f8;     /* Light Gray-Blue */
+  --text-color: #222;
+  --nav-background: #1e2a38;
+  --nav-text: #ffffff;
+  --footer-background: #1e2a38;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: var(--nav-background);
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: var(--nav-text);
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: var(--primary-color);
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+footer {
+  background-color: var(--footer-background);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
